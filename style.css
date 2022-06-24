@@ -1,0 +1,130 @@
+#page {
+	background-color:#E8F9FD;
+	width:100%;
+}
+
+#menu {
+	height:15vh;
+	width:100%;
+	top:0;
+	position:fixed;
+	background-color:#2155CD;
+	background: linear-gradient(90deg, rgba(33,85,205,1) 33%, rgba(10,161,221,1) 66%, rgba(121,218,232,1) 99%);
+}
+
+#title1 {
+	font-size:3.5vh;
+	margin-left:3%;
+	color:#ffffff;
+	font-family:Monaco;
+	text-shadow: 8px 6px 7px rgba(0,0,0,0.4);
+}
+
+#title2 {
+	font-size:2vh;
+	margin-left:3%;
+	color:#ffffff;
+	font-family:Lucida Handwriting;
+	text-shadow: 8px 6px 7px rgba(0,0,0,0.4);
+}
+
+#title3 {
+	font-size:5.5vh;
+	position:absolute;
+	left:80vw;
+	top:-1vh;
+	font-weight:1000;
+	color:#2155CD;
+	font-family:Impact;
+}
+
+#logo {
+	width:340px;
+	height:340px;
+	margin:50px;
+	-webkit-box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+	box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+#presentation {
+	display:flex;
+}	
+
+#gallery {
+	display:flex;
+}
+
+#img1{
+	height:200px;
+	width:300px;
+	margin:20px;
+	margin-left:200px;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+	box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+#img2{
+	height:200px;
+	width:300px;
+	margin:20px;
+	margin-left:50px;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+	box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+#img3{
+	height:200px;
+	width:300px;
+	margin:20px;
+	margin-left:300px;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+	box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.zone1 {
+	height:750px;
+	width:100%;
+	background-color:#0AA1DD;
+}
+
+.zone2 {
+	height:500px;
+	width:100%;
+	background-color:#E8F9FD;
+}
+
+.list2 {
+	font-size:6vh;
+	color:#2155CD;
+	text-decoration:none;
+	font-family:Monaco;
+	font-weight:700;
+	margin-top:4vh;
+	margin-left:1vw;
+	text-shadow:6px 6px 0px rgba(0,0,0,0.2);
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+  .zone2 {
+    height:1000px;
+  }
+  
+  .zone1 {
+	 height:1500px; 
+  }
+  
+  #presentation {
+	  display: block;
+  }
+  
+  #gallery {
+	  display: block;
+  }
+  
+  #img3 {
+	 margin-left:200px; 
+  }
+}
