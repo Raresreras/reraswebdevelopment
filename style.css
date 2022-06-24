@@ -94,7 +94,7 @@
 }
 
 .list2 {
-	font-size:6vh;
+	font-size:70px;
 	color:#2155CD;
 	text-decoration:none;
 	font-family:Monaco;
@@ -105,7 +105,11 @@
 }
 
 
-
+@media only screen and (max-width: 1200px) {
+	.list2{
+	  font-size:43px;
+  }
+}
 
 @media only screen and (max-width: 800px) {
   .zone2 {
@@ -126,5 +130,8 @@
   
   #img3 {
 	 margin-left:200px; 
+  }
+  .list2{
+	  font-size:55px;
   }
 }
